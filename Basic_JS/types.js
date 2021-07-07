@@ -17,7 +17,7 @@ var person = {
     "age": 32
 }
 
-var array = ["m", "foda", "demais"]
+var array = ["exemplo", "de", "array"]
 
 function soma(a,b) {
     return a+b
