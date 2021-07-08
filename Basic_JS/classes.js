@@ -22,7 +22,7 @@ class ITBook extends Book {
     }
 }
 let techBook = new ITBook('Intro to C++', 'Deitel', 3000, 'Algoritimos');
-console.log("\n" + techBook);
+console.log("\n", techBook);
 
 // Encapsulamento
 
