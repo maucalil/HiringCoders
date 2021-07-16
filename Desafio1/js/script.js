@@ -13,11 +13,11 @@ form.addEventListener('submit', (e) => {
     localStorage.setItem('lead', convertData);
 
     let content = document.getElementById('content');
-    let carregando = `<p>carregando ...</p>`;
-    let pronto = `<p>pronto</p>`;
+    let carregando = `<img src='components/loading.gif'/>`;
+    let pronto = `<p>Cadastro concluído!</p>`;
     content.innerHTML = carregando;
 
     setTimeout(() => {
         content.innerHTML = pronto;
-    }, 1000)
+    },1000)
 })
